@@ -20,8 +20,9 @@ A Spring Boot application for secure digital wallet transactions with dynamic fe
 ```sql
 -------------------------------------------------------------------------------------------------------
 TO SETUP,
-* git clone https://github.com/yourusername/wallet-transfer-system.git
-* spring.datasource.url=jdbc:mysql://localhost:3306/wallet_db
+* git clone https://github.com/hayzon1/wallet.git
+* Create database with name wallets
+* spring.datasource.url=jdbc:mysql://localhost:3306/wallets
 spring.datasource.username=your_username
 spring.datasource.password=your_password
-*
+* 
