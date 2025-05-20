@@ -15,7 +15,7 @@ A Spring Boot application for secure digital wallet transactions with dynamic fe
 - **ORM**: Spring Data JPA
 - **Build Tool**: Maven
 - **Lombok**: For boilerplate reduction
-
+- Remove Constructors and import lombook as i have issues resolving my lombok dependecy.
 ## Database Schema 🗃️
 ```sql
 -------------------------------------------------------------------------------------------------------
@@ -25,4 +25,5 @@ TO SETUP,
 * spring.datasource.url=jdbc:mysql://localhost:3306/wallets
 spring.datasource.username=your_username
 spring.datasource.password=your_password
-* 
+
+
